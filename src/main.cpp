@@ -1,16 +1,17 @@
 #include <iostream>
 #include "../include/pilih.hpp"
+using namespace std;
 
 int main() {
     int pilih;
     do {
-        std::cout << "\n=== SISTEM PELELANGAN IKAN ===\n";
-        std::cout << "1. Menu Nelayan\n";
-        std::cout << "2. Menu Tengkulak\n";
-        std::cout << "3. Menu Orang Pasar\n";
-        std::cout << "0. Keluar\n";
-        std::cout << "Pilih: ";
-        std::cin >> pilih;
+        cout << "\n=== SISTEM PELELANGAN IKAN ===\n";
+        cout << "1. Menu Nelayan\n";
+        cout << "2. Menu Tengkulak\n";
+        cout << "3. Menu Orang Pasar\n";
+        cout << "0. Keluar\n";
+        cout << "Pilih: ";
+        cin >> pilih;
 
         switch (pilih) {
         case 1: MenuNelayan(); break;
