@@ -1,6 +1,6 @@
 #include <iostream>
 #include "../include/role.hpp"
-
+/*halo jule*/
 void OrangPasar::InformasiIkan() {
     std::cout << "\n=== INFORMASI IKAN ===\n";
     std::cout << "Tuna, Cakalang, Tongkol tersedia di pelelangan.\n";
